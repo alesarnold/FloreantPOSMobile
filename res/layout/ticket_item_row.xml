@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+              android:weightSum="100"
+              android:gravity="center_vertical">
+
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+        <LinearLayout android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="horizontal"
+                      android:weightSum="100"
+                      android:gravity="center_vertical"
+                      android:layout_gravity="center_vertical"
+                      android:focusable="false"
+                >
+            <TextView
+                    android:id="@+id/no_tv"
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:text="No"
+                    android:textSize="18sp"
+                    android:paddingBottom="5dp"
+                    android:textStyle="normal"
+                    android:layout_margin="10dp"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical|start"
+                    android:focusable="false"
+                    android:layout_weight="4">
+            </TextView>
+
+                <TextView
+                        android:id="@+id/item_name_tv"
+                        android:layout_width="0sp"
+                        android:layout_height="fill_parent"
+                        android:text="Item Name"
+                        android:textSize="18sp"
+                        android:paddingBottom="5dp"
+                        android:textStyle="normal"
+                        android:layout_margin="10dp"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical|start"
+                        android:focusable="false"
+                        android:layout_weight="50">
+                </TextView>
+
+            <TextView
+                    android:id="@+id/qty_tv"
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:text="QTY"
+                    android:textSize="18sp"
+                    android:paddingBottom="5dp"
+                    android:textStyle="normal"
+                    android:layout_margin="10dp"
+                    android:layout_gravity="center_vertical"
+                    android:focusable="false"
+                    android:gravity="center_vertical|start" android:layout_weight="6">
+            </TextView>
+
+
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="0sp"
+                    android:focusable="false"
+                    android:layout_height="fill_parent" android:layout_weight="40">
+                <ImageButton
+                        android:id="@+id/reduceButton"
+                        android:background="@drawable/reduce"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="20sp"
+                        android:paddingBottom="2dp"
+                        android:textStyle="normal"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical|left"
+                        android:focusable="false"
+                        android:layout_marginRight="5dp">
+                </ImageButton>
+                <ImageButton
+                        android:id="@+id/increaseButton"
+                        android:background="@drawable/add"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="20sp"
+                        android:paddingBottom="2dp"
+                        android:textStyle="normal"
+                        android:layout_gravity="center_vertical"
+                        android:focusable="false"
+                        android:gravity="center_vertical|left" android:layout_marginLeft="5dp">
+                </ImageButton>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+                      android:orientation="horizontal" android:weightSum="100" android:gravity="center_vertical"
+                      android:layout_gravity="center_vertical"
+                      android:focusable="false"
+                      android:visibility="visible"
+                      android:id="@+id/modifierBand">
+            <TextView android:id="@+id/textView2" android:layout_width="0sp" android:layout_height="wrap_content"
+                      android:text="-" android:textSize="18sp" android:paddingBottom="5dp" android:textStyle="normal"
+                      android:layout_margin="10dp" android:layout_gravity="center_vertical"
+                      android:gravity="center_vertical|start" android:focusable="false" android:layout_weight="4"/>
+            <TextView android:id="@+id/modifierNameTV"
+                      android:layout_width="0sp"
+                      android:layout_height="fill_parent"
+                      android:text="Modifier Name"
+                      android:textSize="18sp" android:paddingBottom="5dp"
+                      android:textStyle="normal" android:layout_margin="10dp" android:layout_gravity="center_vertical"
+                      android:gravity="center_vertical|start" android:focusable="false" android:layout_weight="50"/>
+            <TextView android:id="@+id/modifierQtyTV"
+                      android:layout_width="0sp"
+                      android:layout_height="wrap_content"
+                      android:text="QTY"
+                      android:textSize="18sp"
+                      android:paddingBottom="5dp"
+                      android:textStyle="normal"
+                      android:layout_margin="10dp"
+                      android:layout_gravity="center_vertical"
+                      android:focusable="false"
+                      android:gravity="center_vertical|start"
+                      android:layout_weight="6"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_color">#fffbfffb</color>
+    <color name="toolbarColor">#ffacd20d</color>
+
+    <color name="textColor">#ff414d6f</color>
+    <color name="textShadow">#FFF</color>
+
+    <color name="tickColor">#ffb5d5ff</color>
+
+    <color name="white">#fffefefe</color>
+
+    <color name="sendLightColor">#8897BF</color>
+    <color name="sendMeduimColor">#5D6CA5</color>
+    <color name="sendDarkColor">#515F9F</color>
+
+    <color name="barDarkColor">#CECECE</color>
+    <color name="barMeduimColor">#DFDEE0</color>
+    <color name="barLightColor">#ff65ae4b</color>
+    <color name="grayColor">#777777</color>
+
+    <color name="black">#ff39460c</color>
+    <color name="orange">#ffffec0f</color>
+    <color name="blue">#ff4a84ff</color>
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools" android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:weightSum="100" android:gravity="center"
+              android:id="@+id/topLess"
+        >
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp" android:layout_weight="50" android:weightSum="1"
+            android:layout_gravity="center" android:gravity="center">
+        <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/imageView"
+                android:layout_gravity="center_horizontal" android:src="@drawable/icon"
+                android:layout_margin="20dp"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/app_name"
+                android:id="@+id/textView"
+                android:layout_gravity="center_horizontal"
+                android:alpha="0.6"
+                tools:ignore="UnusedAttribute" android:gravity="center"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="version"
+                android:alpha="0.6"
+                tools:ignore="UnusedAttribute"
+                android:id="@+id/textViewVersion" android:layout_gravity="center_horizontal"
+                />
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp" android:layout_weight="50" android:background="@color/barLightColor"
+            android:gravity="center|center_vertical">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/copyright_reserved"
+                tools:ignore="UnusedAttribute"
+                android:alpha="0.6"
+                android:id="@+id/rightReserved" android:layout_gravity="center" android:gravity="center_horizontal"/>
+    </LinearLayout>
+</LinearLayout>

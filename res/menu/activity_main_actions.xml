@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/homeMenu"
+          android:title="@string/home"
+          android:showAsAction="never"
+          tools:ignore="UnusedAttribute"/>
+
+    <item android:id="@+id/logoutMenu"
+          android:icon="@drawable/login"
+          android:title="@string/logout"
+          android:checked="true"
+          android:showAsAction="never"
+          tools:ignore="UnusedAttribute"/>
+
+    <item android:id="@+id/clockOutMenu"
+          android:icon="@drawable/login"
+          android:title="@string/clock_out"
+          android:checked="true"
+          android:showAsAction="never"
+          tools:ignore="UnusedAttribute"/>
+
+    <item android:id="@+id/settingMenu"
+          android:title="@string/settings"
+          android:showAsAction="never"
+          tools:ignore="UnusedAttribute"/>
+</menu>

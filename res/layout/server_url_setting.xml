@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:weightSum="100" android:gravity="center_horizontal">
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Server URL"
+            android:id="@+id/textView" android:layout_gravity="center_horizontal" android:layout_marginTop="60dp"/>
+    <LinearLayout
+            android:id="@+id/merchantBand"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="16"
+            android:background="@drawable/oval_button"
+            android:gravity="center_vertical" android:layout_margin="5dp">
+
+        <EditText
+                android:id="@+id/url_tv"
+                android:layout_width="match_parent"
+                android:layout_height="66dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="http://"
+                android:textColor="@color/textColor"
+                android:textSize="16sp" android:inputType="textUri"/>
+    </LinearLayout>
+
+</LinearLayout>
+

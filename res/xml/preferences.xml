@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        >
+
+    <PreferenceCategory android:title="@string/system">
+        <PreferenceScreen
+                android:title="@string/server_url"
+                android:summary="@string/server_url"
+                >
+            <intent android:action="android.intent.action.VIEW"
+                    android:targetPackage="com.floreantpos.v14.mobile"
+                    android:targetClass="com.floreantpos.v14.mobile.activity.ServerURLSettingActivity"
+                    />
+        </PreferenceScreen>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/help_faq">
+        <PreferenceScreen
+                android:title="@string/help_faq"
+                android:summary="@string/help_faq"
+                android:icon="@drawable/faq"
+                >
+            <intent android:action="android.intent.action.VIEW"
+                    android:targetPackage="com.floreantpos.v14.mobile"
+                    android:targetClass="com.floreantpos.v14.mobile.activity.FAQ"
+                    />
+        </PreferenceScreen>
+    </PreferenceCategory>
+</PreferenceScreen>

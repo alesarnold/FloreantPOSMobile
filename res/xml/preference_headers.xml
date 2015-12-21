@@ -1,0 +1,18 @@
+<preference-headers xmlns:tools="http://schemas.android.com/tools"
+                    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <header
+            android:fragment="com.floreantpos.v14.mobile.activity.SettingsFragmentSystem"
+            android:title="@string/system"
+            android:summary="@string/server_url"
+            tools:ignore="UnusedAttribute"
+            />
+
+    <header
+            android:fragment="com.floreantpos.v14.mobile.activity.SettingsFragmentHelp"
+            android:title="@string/help_faq"
+            android:summary="@string/help_faq"
+            tools:ignore="UnusedAttribute"/>
+
+</preference-headers>
+

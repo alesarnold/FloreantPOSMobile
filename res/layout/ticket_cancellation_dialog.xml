@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/layout_root"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical"
+              android:layout_centerVertical="true"
+              android:padding="10dp" android:weightSum="100">
+
+    <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/ticket_cancellation_confirm"
+            android:textAppearance="?android:attr/textAppearanceLarge" android:textSize="18sp"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/reasonEditTExt" android:layout_gravity="center_horizontal" android:textSize="18sp"/>
+
+</LinearLayout>

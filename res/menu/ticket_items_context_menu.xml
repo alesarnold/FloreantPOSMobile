@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/drop_item"
+          android:title="@string/drop_ticket_item">
+    </item>
+
+    <item android:id="@+id/add_instruction"
+          android:title="@string/add_instruction"
+          android:icon="@drawable/about">
+    </item>
+</menu>

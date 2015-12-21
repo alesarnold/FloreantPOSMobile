@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        >
+    <PreferenceCategory android:title="@string/system">
+        <PreferenceScreen
+                android:title="@string/server_url"
+                android:summary=""
+                android:icon="@drawable/settings"
+                >
+            <intent android:action="android.intent.action.VIEW"
+                    android:targetPackage="com.floreantpos.v14.mobile"
+                    android:targetClass="com.floreantpos.v14.mobile.activity.ServerURLSettingActivity"
+                    />
+        </PreferenceScreen>
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        >
+    <PreferenceScreen
+            android:title="@string/help_faq"
+            android:icon="@drawable/faq"
+            >
+        <intent android:action="android.intent.action.VIEW"
+                android:targetPackage="com.floreantpos.v14.mobile"
+                android:targetClass="com.floreantpos.v14.mobile.activity.FAQ"
+                />
+    </PreferenceScreen>
+
+    <PreferenceScreen
+            android:title="@string/about"
+            android:icon="@drawable/about"
+            >
+        <intent android:action="android.intent.action.VIEW"
+                android:targetPackage="com.floreantpos.mobile"
+                android:targetClass="com.floreantpos.v14.mobile.activity.AboutActivity"
+                />
+    </PreferenceScreen>
+
+</PreferenceScreen>
