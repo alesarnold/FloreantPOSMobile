@@ -16,12 +16,13 @@
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/gen" isTestSource="false" generated="true" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="Android API 23 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="android-support-v4" level="project" />
     <orderEntry type="library" name="gson-2.2.4" level="project" />
     <orderEntry type="library" name="commons-lang-2.6" level="project" />
     <orderEntry type="library" name="responses" level="project" />
     <orderEntry type="library" name="volley" level="project" />
+    <orderEntry type="library" name="httpcore-4.4.3" level="project" />
   </component>
 </module>
